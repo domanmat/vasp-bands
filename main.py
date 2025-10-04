@@ -29,13 +29,13 @@ plt.rcParams["font.family"] = "Arial"
 
 # Fermi level settings and constants
 IF_MANUAL_FERMI = 1
-MANUAL_FERMI = 9.69701759  # LaNiO2 SCAN_metal z DOS
-PLOT_SPIN_CHANNELS = 0
+MANUAL_FERMI = 9.69701759  # the energy you want to set 
+PLOT_SPIN_CHANNELS = 0 #functionality removed 
 CM = 1 / 2.54
 
 # Directory and projection settings
-FOLDER = r"C:\Users\Mateusz\Documents\MobaXterm\home\For_Jose_2025_08_01\NiLiH2-gga_u6-is3_sq2_sc112_015_af1-prim_nm-BS_rw"
-INPUT_PRINT = "H.s Ni.dx2-y2"
+FOLDER = r"A path to your VASP results directory"
+INPUT_PRINT = #e.g. "O.p Ni.dx2-y2"
 
 # ==================== UTILITY FUNCTIONS ====================
 def split_list_halves(input_list):
@@ -534,3 +534,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
