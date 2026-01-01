@@ -1,6 +1,7 @@
 # VASP Band Structure Plotter
 
 A comprehensive Python script for generating publication-quality electronic band structure plots from VASP calculations with orbital projections.
+The code was applied in the peer-reviewed research article: https://doi.org/10.1103/PhysRevB.111.165137
 
 ## Overview
 
